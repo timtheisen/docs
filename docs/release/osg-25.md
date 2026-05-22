@@ -56,6 +56,22 @@ Updates to critical packages are also announced by email and are sent to the fol
 -   [site-announce@osg-htc.org](https://groups.google.com/u/1/a/osg-htc.org/g/site-announce)
 -   [software-discuss@osg-htc.org](https://groups.google.com/a/osg-htc.org/g/software-discuss)
 
+**May 22, 2026:** IGTF 1.141, Pelican 7.25.0
+----------------------------------------------------------------------------------------------------------------------
+-   CA certificates based on [IGTF 1.141](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)
+    -   Added new UK eScience CA ECC hierarchy (UK)
+    -   Withdrawn expiring HellasGrid2016 CA (GR)
+    -   Withdrawn expiring SRCE CA (HR)
+    -   Removed GPG Gen3 package signing key (GPG-KEY-EUGridPMA-RPM-3)
+
+-   [Pelican 7.25.0](https://github.com/PelicanPlatform/pelican/releases/tag/v7.25.0)
+    -   Pelican Client Changes
+        -   Fixes preferred-cache routing
+        -   Improves proxy detection
+        -   Makes auth and checksum error more straightforward
+    -   Pelican Federation Changes
+        -   Improves director forwarding by applying cache storage consumption monitoring
+
 **May 14, 2026:** gratia-probe 2.9.2, vo-client 142, HTCondor 25.0.10; Upcoming: HTCondor 25.10.1
 ----------------------------------------------------------------------------------------------------------------------
 -   gratia-probe 2.9.2

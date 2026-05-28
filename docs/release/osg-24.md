@@ -20,6 +20,13 @@ Updates to critical packages are also announced by email and are sent to the fol
 -   [site-announce@osg-htc.org](https://groups.google.com/u/1/a/osg-htc.org/g/site-announce)
 -   [software-discuss@osg-htc.org](https://groups.google.com/a/osg-htc.org/g/software-discuss)
 
+**May 28, 2026:** GlideinWMS 3.10.18
+----------------------------------------------------------------------------------------------------------------------
+-   [GlideinWMS 3.10.18](https://glideinwms.fnal.gov/doc.v3_10_18/history.html#stable)
+    -   Adds custom scripts timeout
+    -   Fixes job monitoring and a few other bugs
+    -   See the CHANGELOG for important default changes
+
 **May 22, 2026:** IGTF 1.141, Pelican 7.25.0
 ----------------------------------------------------------------------------------------------------------------------
 -   CA certificates based on [IGTF 1.141](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)

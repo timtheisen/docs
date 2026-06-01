@@ -36,7 +36,7 @@ In order to configure the container, you will need:
    resource registration allows OSG to do proper usage accounting and maintain contacts in case of security incidents
    and other issues.
 1. An authentication token from the OSG: once contact and resource registration are complete, you can retrieve a token
-   through the [OSPool Token Registry](https://os-registry.opensciencegrid.org/)
+   through the [OSPool Token Registry](https://os-registry.osg-htc.org/)
 1. An [HTTP caching proxy](../data/run-frontier-squid-container.md) at or near your site.
 
 
@@ -52,7 +52,7 @@ On EL hosts, the pilot container can also be managed via a systemctl service pro
         :::console
         root@host # yum install ospool-ep
 
-1. [Obtain an OSPool Access Token](https://os-registry.opensciencegrid.org/) for the pilot.
+1. [Obtain an OSPool Access Token](https://os-registry.osg-htc.org/) for the pilot.
    
 1. Copy the OSPool Access Token obtained in the previous step to `/etc/osg/ospool-ep.tkn`.
 
@@ -123,7 +123,7 @@ In order to successfully start payload jobs:
 
 1. **Configure authentication:**
    Authentication with the OSPool is performed using tokens retrieved from the
-   [OSPool Token Registry](https://os-registry.opensciencegrid.org/)
+   [OSPool Token Registry](https://os-registry.osg-htc.org/)
    which you can then pass to the container by volume mounting it as a file under `/etc/condor/tokens-orig.d/`.
    If you are using Docker to launch the container, this is done with the command line flag
    `-v /path/to/token:/etc/condor/tokens-orig.d/flock.opensciencegrid.org`.

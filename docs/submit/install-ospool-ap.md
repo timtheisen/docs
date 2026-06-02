@@ -91,7 +91,7 @@ Instructions can be found [here](https://osg-htc.org/technology/policy/comanage-
 ### Obtain an Authentication Token
 The new Access Point will need an authentication token to authenticate to the OSPool Central Manager.
 Once your Access Point is registered in OSG Topology and you are registered with COManage,
-you can obtain a token from the [OSG Token Registration page](https://os-registry.opensciencegrid.org/).
+you can obtain a token from the [OSG Token Registration page](https://os-registry.osg-htc.org/).
 
 You will need a host with Docker to run the software used for retrieving the token.
 Use your COManage registered and approved identity to log into the

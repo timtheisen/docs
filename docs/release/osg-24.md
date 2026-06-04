@@ -20,6 +20,16 @@ Updates to critical packages are also announced by email and are sent to the fol
 -   [site-announce@osg-htc.org](https://groups.google.com/u/1/a/osg-htc.org/g/site-announce)
 -   [software-discuss@osg-htc.org](https://groups.google.com/a/osg-htc.org/g/software-discuss)
 
+**June 4, 2026:** Upcoming: GlideinWMS 3.11.4
+----------------------------------------------------------------------------------------------------------------------
+-   Upcoming
+    -   [GlideinWMS 3.11.4](https://glideinwms.fnal.gov/doc.v3_11_4/history.html#development)
+        -   Pilot ARM submission
+        -   Correct `project_ID` reporting
+        -   IdTokenGenerator uses Entry name when `GLIDEIN_Site` is not available
+        -   Initial release on Enterprise Linux 10
+        -   All changes and fixes from the recent [GlideinWMS 3.10.18](https://glideinwms.fnal.gov/doc.v3_10_18/history.html#stable) release
+
 **May 28, 2026:** GlideinWMS 3.10.18
 ----------------------------------------------------------------------------------------------------------------------
 -   [GlideinWMS 3.10.18](https://glideinwms.fnal.gov/doc.v3_10_18/history.html#stable)

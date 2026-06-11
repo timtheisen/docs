@@ -20,7 +20,7 @@ Updates to critical packages are also announced by email and are sent to the fol
 -   [site-announce@osg-htc.org](https://groups.google.com/u/1/a/osg-htc.org/g/site-announce)
 -   [software-discuss@osg-htc.org](https://groups.google.com/a/osg-htc.org/g/software-discuss)
 
-**June 4, 2026:** HTCondor 24.0.21; Upcoming: HTCondor 24.12.21
+**June 11, 2026:** HTCondor 24.0.21; Upcoming: HTCondor 24.12.21
 ----------------------------------------------------------------------------------------------------------------------
 -   [HTCondor 24.0.21](https://htcondor.readthedocs.io/en/24.0/version-history/lts-versions-24-0.html#version-24-0-21)
     -   Fix rare issue where `condor_dagman` would abort after a system reboot

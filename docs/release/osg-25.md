@@ -56,7 +56,7 @@ Updates to critical packages are also announced by email and are sent to the fol
 -   [site-announce@osg-htc.org](https://groups.google.com/u/1/a/osg-htc.org/g/site-announce)
 -   [software-discuss@osg-htc.org](https://groups.google.com/a/osg-htc.org/g/software-discuss)
 
-**June 4, 2026:** HTCondor 25.0.11; Upcoming: HTCondor 25.11.0
+**June 11, 2026:** HTCondor 25.0.11; Upcoming: HTCondor 25.11.0
 ----------------------------------------------------------------------------------------------------------------------
 -   [HTCondor 25.0.11](https://htcondor.readthedocs.io/en/25.0/version-history/lts-versions-25-0.html#version-25-0-11)
     -   Fix rare EP crash when using a custom docker wrapper script

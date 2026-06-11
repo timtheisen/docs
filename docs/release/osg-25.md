@@ -56,6 +56,34 @@ Updates to critical packages are also announced by email and are sent to the fol
 -   [site-announce@osg-htc.org](https://groups.google.com/u/1/a/osg-htc.org/g/site-announce)
 -   [software-discuss@osg-htc.org](https://groups.google.com/a/osg-htc.org/g/software-discuss)
 
+**June 4, 2026:** HTCondor 25.0.11; Upcoming: HTCondor 25.11.0
+----------------------------------------------------------------------------------------------------------------------
+-   [HTCondor 25.0.11](https://htcondor.readthedocs.io/en/25.0/version-history/lts-versions-25-0.html#version-25-0-11)
+    -   Fix rare EP crash when using a custom docker wrapper script
+    -   Fix rare issue where `condor_dagman` would abort after a system reboot
+    -   HTCondor tarballs now contain Apptainer 1.5.0
+    -   HTCondor tarballs now contain Pelican 7.25.0
+        -   Fix preferred-cache routing
+        -   Improved proxy detection
+        -   Improved authentication and checksum error messages
+-   Upcoming:
+    -   [HTCondor 25.11.0](https://htcondor.readthedocs.io/en/25.x/version-history/feature-versions-25-x.html#version-25-11-0)
+        -   Prevent one user's many file transfers from halting matches for all users
+        -   `condor_watch_q` will gather DAGs that started after it did
+        -   `condor_dag_checker` can now check submit files, sub-DAGs, and scripts
+        -   Gangliad can now aggregate deltas of monotonically increasing values
+        -   `condor_config_val -trace` finds a definition in a complex configuration
+        -   Now able to set a duration to a user's running jobs ceiling
+        -   Multi-call binaries can now be used with DAGMan
+        -   Initial support for EP health checks
+        -   Fix rare EP crash when using a custom docker wrapper script
+        -   Fix rare issue where `condor_dagman` would abort after a system reboot
+        -   HTCondor tarballs now contain Apptainer 1.5.0
+        -   HTCondor tarballs now contain Pelican 7.25.0
+            -   Fix preferred-cache routing
+            -   Improved proxy detection
+            -   Improved authentication and checksum error messages
+
 **June 4, 2026:** Upcoming: GlideinWMS 3.11.4
 ----------------------------------------------------------------------------------------------------------------------
 -   Upcoming

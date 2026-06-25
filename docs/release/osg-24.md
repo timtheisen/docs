@@ -23,6 +23,14 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**June 25, 2026:** IGTF 1.143, osg-wn-client 24-4
+----------------------------------------------------------------------------------------------------------------------
+-   CA certificates based on [IGTF 1.143](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)
+    -   eplaced trust anchor for DZeScience authority by DZeScience G2 (DZ)
+    -   Added new InCommon Gen 4 issuing authority and updated HLCA (US)
+-   osg-wn-client
+    -   Change gfal2-plugin-xrootd into a weak dependency
+
 **June 11, 2026:** HTCondor 24.0.21; Upcoming: HTCondor 24.12.21
 ----------------------------------------------------------------------------------------------------------------------
 -   [HTCondor 24.0.21](https://htcondor.readthedocs.io/en/24.0/version-history/lts-versions-24-0.html#version-24-0-21)

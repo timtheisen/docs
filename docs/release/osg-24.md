@@ -23,6 +23,14 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**July 2, 2026:** OpenBao 2.5.5
+----------------------------------------------------------------------------------------------------------------------
+-   [OpenBao 2.5.5](https://github.com/openbao/openbao/releases/tag/v2.5.5)
+    -   Update to match the version in EPEL
+    -   Minor security and bug fixes unlikely to impact OSG users
+
+----------------------------------------------------------------------------------------------------------------------
+
 **June 25, 2026:** IGTF 1.143, osg-wn-client 24-4
 ----------------------------------------------------------------------------------------------------------------------
 -   CA certificates based on [IGTF 1.143](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)

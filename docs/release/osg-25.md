@@ -59,6 +59,20 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**July 8, 2026:** XRootD 5.9.6, osg-ca-certs 1.143-3, osg-ce 25-4
+----------------------------------------------------------------------------------------------------------------------
+-   [XRootD 5.9.6-1.1](https://github.com/xrootd/xrootd/releases/tag/v5.9.6)
+    -   Security fixes for
+        -   HTTP protocol plugin
+        -   Third-Party Copy plugin
+        -   macaroons
+        -   SciTokens plugin
+-   osg-ca-certs 1.143-3
+    -   Add root CAs for ISRG Root YE and ISRG Root YR
+    -   Add subordinate CAs for Let's Encrypt YE and Let's Encrypt YR
+-   osg-ce 25-4
+    -   Add back frontier-squid dependency now that it's available on EL10
+
 **June 25, 2026:** IGTF 1.143, osg-wn-client 25-4
 ----------------------------------------------------------------------------------------------------------------------
 -   CA certificates based on [IGTF 1.143](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)
@@ -619,7 +633,6 @@ The following packages were removed for OSG 25:
 
 The following OSG packages are not yet available for Enterprise Linux 10:
 
--   glideinwms
 -   osg-pki-tools
 
 The following changes were made to packages in EL10:
@@ -632,8 +645,6 @@ The following changes were made to packages in EL10:
         These packages however, are still available in case sites have alternative means to install the necessary
         `ganglia` and `slurm` dependencies.
         
-    -   Removed `frontier-squid` as a dependency.
-        The dependency will be re-added when `frontier-squid` is available for EL10
     -   Removed `osg-ce-torque` as Torque is not available via EPEL
 
 -   OSG WN Client:

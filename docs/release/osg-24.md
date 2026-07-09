@@ -23,6 +23,18 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**July 8, 2026:** XRootD 5.9.6, osg-ca-certs 1.143-3
+----------------------------------------------------------------------------------------------------------------------
+-   [XRootD 5.9.6-1.1](https://github.com/xrootd/xrootd/releases/tag/v5.9.6)
+    -   Security fixes for
+        -   HTTP protocol plugin
+        -   Third-Party Copy plugin
+        -   macaroons
+        -   SciTokens plugin
+-   osg-ca-certs 1.143-3
+    -   Add root CAs for ISRG Root YE and ISRG Root YR
+    -   Add subordinate CAs for Let's Encrypt YE and Let's Encrypt YR
+
 **July 2, 2026:** OpenBao 2.5.5
 ----------------------------------------------------------------------------------------------------------------------
 -   [OpenBao 2.5.5](https://github.com/openbao/openbao/releases/tag/v2.5.5)

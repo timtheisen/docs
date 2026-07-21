@@ -23,6 +23,21 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**July 21, 2026:** HTCondor 24.0.22; Upcoming 24.12.22
+----------------------------------------------------------------------------------------------------------------------
+-   [HTCondor 24.0.22](https://htcondor.readthedocs.io/en/24.0/version-history/lts-versions-24-0.html#version-24-0-22)
+    -   Access Point [Security Fix](https://htcondor.org/security/vulnerabilities/HTCONDOR-2026-0001)
+    -   Fix a bug that could cause the `arc_gahp` to crash
+    -   Reduce the size of Python wheels by 84% by removing debug symbols
+    -   Fix issue where tools could infinitely loop when using trust on first use
+-   Upcoming
+    -   [HTCondor 24.12.22](https://htcondor.readthedocs.io/en/24.x/version-history/feature-versions-24-x.html#version-24-12-22)
+        -   Access Point [Security Fix](https://htcondor.org/security/vulnerabilities/HTCONDOR-2026-0001)
+        -   Fix rare job router crash when removing a recently routed job
+        -   Fix a bug that could cause the `arc_gahp` to crash
+        -   Reduce the size of Python wheels by 84% by removing debug symbols
+        -   Fix issue where tools could infinitely loop when using trust on first use
+
 **July 8, 2026:** XRootD 5.9.6, osg-ca-certs 1.143-3
 ----------------------------------------------------------------------------------------------------------------------
 -   [XRootD 5.9.6-1.1](https://github.com/xrootd/xrootd/releases/tag/v5.9.6)

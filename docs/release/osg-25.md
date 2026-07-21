@@ -59,6 +59,27 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**July 21, 2026:** HTCondor 25.0.12; Upcoming 25.12.2
+----------------------------------------------------------------------------------------------------------------------
+-   [HTCondor 25.0.12](https://htcondor.readthedocs.io/en/25.0/version-history/lts-versions-25-0.html#version-25-0-12)
+    -   Access Point [Security Fix](https://htcondor.org/security/vulnerabilities/HTCONDOR-2026-0001)
+    -   Fix rare job router crash when removing a recently routed job
+    -   Fix a bug that could cause the `arc_gahp` to crash
+    -   Reduce the size of Python wheels by 84% by removing debug symbols
+    -   Fix issue where tools could infinitely loop when using trust on first use
+-   Upcoming
+    -   [HTCondor 25.12.22](https://htcondor.readthedocs.io/en/25.x/version-history/feature-versions-25-x.html#version-25-12-2)
+        -   Access Point [Security Fix](https://htcondor.org/security/vulnerabilities/HTCONDOR-2026-0001)
+        -   Maintains a job index to speed up condor history queries
+        -   Can now set a duration for a user's floor or priority factor
+        -   DAGMan will go into cool-down if it fails to launch
+        -   Improved column headers for `condor_top`
+        -   Audit log is now enabled by default on the Access Point
+        -   Fix rare job router crash when removing a recently routed job
+        -   Fix a bug that could cause the `arc_gahp` to crash
+        -   Reduce the size of Python wheels by 84% by removing debug symbols
+        -   Fix issue where tools could infinitely loop when using trust on first use
+
 **July 8, 2026:** XRootD 5.9.6, osg-ca-certs 1.143-3, osg-ce 25-4
 ----------------------------------------------------------------------------------------------------------------------
 -   [XRootD 5.9.6-1.1](https://github.com/xrootd/xrootd/releases/tag/v5.9.6)

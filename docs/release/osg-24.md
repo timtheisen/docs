@@ -23,6 +23,14 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**June 25, 2026:** IGTF 1.144, gratia-probe 2.9.3
+----------------------------------------------------------------------------------------------------------------------
+-   CA certificates based on [IGTF 1.144](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)
+    -   Extended validity period of SiGNET CA within current policy (SI)
+    -   Corrected tagging of DCVOTA accredited CAs in RPM packaging
+-   gratia-probe 2.9.3
+    -   Now compresses old log files when it rotates them
+
 **July 21, 2026:** HTCondor 24.0.22; Upcoming 24.12.22
 ----------------------------------------------------------------------------------------------------------------------
 -   [HTCondor 24.0.22](https://htcondor.readthedocs.io/en/24.0/version-history/lts-versions-24-0.html#version-24-0-22)
@@ -61,7 +69,7 @@ Latest News
 **June 25, 2026:** IGTF 1.143, osg-wn-client 24-4
 ----------------------------------------------------------------------------------------------------------------------
 -   CA certificates based on [IGTF 1.143](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)
-    -   eplaced trust anchor for DZeScience authority by DZeScience G2 (DZ)
+    -   Replaced trust anchor for DZeScience authority by DZeScience G2 (DZ)
     -   Added new InCommon Gen 4 issuing authority and updated HLCA (US)
 -   osg-wn-client
     -   Change gfal2-plugin-xrootd into a weak dependency

@@ -59,7 +59,7 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
-**June 25, 2026:** IGTF 1.144, gratia-probe 2.9.3
+**July 25, 2026:** IGTF 1.144, gratia-probe 2.9.3
 ----------------------------------------------------------------------------------------------------------------------
 -   CA certificates based on [IGTF 1.144](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)
     -   Extended validity period of SiGNET CA within current policy (SI)

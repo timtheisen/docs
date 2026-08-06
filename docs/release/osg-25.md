@@ -69,7 +69,7 @@ Latest News
     -   Cancels prefetch requests when a file is closed or destroyed
 -   [htvault-config 2.4.1](https://github.com/fermitools/htvault-config/releases/tag/v2.4.1)
     -   Update for compatibility with openbao-2.6
-    -   Rate limit configuration is more robust for high-availability clusters
+    -   Make rate limit configuration more robust for high-availability clusters
 
 **July 23, 2026:** IGTF 1.144, gratia-probe 2.9.3
 ----------------------------------------------------------------------------------------------------------------------

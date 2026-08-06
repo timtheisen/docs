@@ -23,6 +23,20 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**August 6, 2026:** osg-ca-certs 1.144-2, Pelican 7.26.0, xrdcl-pelican 1.7.1, OpenBao 2.6.0, htvault-config 2.4.1
+----------------------------------------------------------------------------------------------------------------------
+-   [osg-ca-certs 1.144-2](https://github.com/opensciencegrid/osg-certificates/releases/tag/v1.144.igtf.1.144-2)
+    -   Provide hash symbolic links for Let's Encrypt CAs
+-   [Pelican 7.26.0](https://github.com/PelicanPlatform/pelican/releases/tag/v7.26.0)
+    -   Separate client and server binary to reduce client size
+-   [xrdcl-pelican 1.7.1](https://github.com/PelicanPlatform/xrdcl-pelican/releases/tag/v1.7.1)
+    -   Cancels prefetch requests when a file is closed or destroyed
+-   [OpenBao 2.6.0](https://github.com/openbao/openbao/releases/tag/v2.6.0)
+    -   Update to latest version in EPEL
+-   [htvault-config 2.4.1](https://github.com/fermitools/htvault-config/releases/tag/v2.4.1)
+    -   Update for compatibility with openbao-2.6
+    -   Rate limit configuration is more robust for high-availability clusters
+
 **July 23, 2026:** IGTF 1.144, gratia-probe 2.9.3
 ----------------------------------------------------------------------------------------------------------------------
 -   CA certificates based on [IGTF 1.144](http://dist.eugridpma.info/distribution/igtf/current/CHANGES)

@@ -88,7 +88,7 @@ Latest News
     -   Reduce the size of Python wheels by 84% by removing debug symbols
     -   Fix issue where tools could infinitely loop when using trust on first use
 -   Upcoming
-    -   [HTCondor 25.12.22](https://htcondor.readthedocs.io/en/25.x/version-history/feature-versions-25-x.html#version-25-12-2)
+    -   [HTCondor 25.12.2](https://htcondor.readthedocs.io/en/25.x/version-history/feature-versions-25-x.html#version-25-12-2)
         -   Access Point [Security Fix](https://htcondor.org/security/vulnerabilities/HTCONDOR-2026-0001)
         -   Maintains a job index to speed up condor history queries
         -   Can now set a duration for a user's floor or priority factor

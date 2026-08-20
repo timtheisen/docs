@@ -59,6 +59,46 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
+**August 20, 2026:** HTCondor 24.0.23, osdf-server 7.19.1-2, json-schema-validator 2.3.0-3; Upcoming: HTCondor 24.12.23, CVMFS 2.14.1
+----------------------------------------------------------------------------------------------------------------------
+-   [HTCondor 25.0.13](https://htcondor.readthedocs.io/en/25.0/version-history/lts-versions-25-0.html#version-25-0-13)
+    -   Fix bug where `condor_q` crashes when given `-batch` and `-af` arguments
+    -   Fix bug where FS authentication fails when `TCP_FORWARDING_HOST` is set
+    -   Fix bug where `condor_history` might not find a specific cluster or proc
+    -   HTCondor tarballs now contain Apptainer 1.5.3 and [Pelican 7.26.0](https://github.com/PelicanPlatform/pelican/releases/tag/v7.26.0)
+    -   Removing Pelican server code reduces tarball size by 10 megabytes
+
+-   osdf-server 7.19.1-2
+    -   Include xrootd-s3-http on EL8
+-   json-schema-validator 2.3.0-3
+    -   Split executables and versioned libraries out of the -devel sub-package.
+
+    !!! note
+        Downgrading to the previous version of
+        `json-schema-validator-devel` requires removing `json-schema-validator`
+        to avoid file conflicts, as follows:
+        `yum swap json-schema-validator 'json-schema-validator-devel < 2.3.0-3'`
+
+-   Upcoming
+    -   [HTCondor 25.13.2](https://htcondor.readthedocs.io/en/25.x/version-history/feature-versions-25-x.html#version-25-13-2)
+        -   The `condor_credmon_oauth` now properly handles credentials with handles
+        -   Improve providing OAuth credentials to all jobs on the Access Point
+        -   Add WEAK dependencies to DAGman which only require finishing, not success
+        -   Provides condor scratch mount for Apptainer jobs with no file transfer
+        -   `condor_submit` now recommends using `condor_watch_q` to monitor jobs
+        -   The CCB can now proxy connections with both ends on private networks
+        -   Add CCB Tunneling for daemons with no outbound network connectivity
+        -   Fix bug where `condor_q` crashes when given `-batch` and `-af` arguments
+        -   Fix bug where FS authentication fails when `TCP_FORWARDING_HOST` is set
+        -   Fix bug where `condor_history` might not find a specific cluster or proc
+        -   HTCondor tarballs now contain Apptainer 1.5.3 and [Pelican 7.26.0](https://github.com/PelicanPlatform/pelican/releases/tag/v7.26.0)
+        -   Removing Pelican server code reduces tarball size by 10 megabytes
+    -   [CVMFS 2.14.1](https://cvmfs.readthedocs.io/en/stable/cpt-releasenotes/#release-notes-for-cernvm-fs-2141)
+        -   Major update over 2.13 including many bug fixes and features,
+            including significant improvements in defensive security.
+            Sites are encouraged to upgrade, especially large sites,
+            and to watch for and report problems.
+
 **August 6, 2026:** osg-ca-certs 1.144-2, Pelican 7.26.0, xrdcl-pelican 1.7.1, OpenBao 2.6.0, htvault-config 2.4.1
 ----------------------------------------------------------------------------------------------------------------------
 -   [osg-ca-certs 1.144-2](https://github.com/opensciencegrid/osg-certificates/releases/tag/v1.144.igtf.1.144-2)

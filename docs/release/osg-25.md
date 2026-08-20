@@ -59,7 +59,7 @@ Updates to critical packages are also announced by email and are sent to the fol
 Latest News
 -----------
 
-**August 20, 2026:** HTCondor 24.0.23, osdf-server 7.19.1-2, json-schema-validator 2.3.0-3; Upcoming: HTCondor 24.12.23, CVMFS 2.14.1
+**August 20, 2026:** HTCondor 25.0.13, osdf-server 25-4, json-schema-validator 2.3.0-3; Upcoming: HTCondor 25.13.2, CVMFS 2.14.1
 ----------------------------------------------------------------------------------------------------------------------
 -   [HTCondor 25.0.13](https://htcondor.readthedocs.io/en/25.0/version-history/lts-versions-25-0.html#version-25-0-13)
     -   Fix bug where `condor_q` crashes when given `-batch` and `-af` arguments
@@ -68,7 +68,7 @@ Latest News
     -   HTCondor tarballs now contain Apptainer 1.5.3 and [Pelican 7.26.0](https://github.com/PelicanPlatform/pelican/releases/tag/v7.26.0)
     -   Removing Pelican server code reduces tarball size by 10 megabytes
 
--   osdf-server 7.19.1-2
+-   osdf-server 25-4
     -   Include xrootd-s3-http on EL8
 -   json-schema-validator 2.3.0-3
     -   Split executables and versioned libraries out of the -devel sub-package.
